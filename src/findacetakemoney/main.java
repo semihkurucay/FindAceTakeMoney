@@ -145,9 +145,9 @@ public class main extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(3, 192, 60));
+        jPanel1.setBackground(new java.awt.Color(0, 100, 0));
 
-        jPanel2.setBackground(new java.awt.Color(242, 236, 213));
+        jPanel2.setBackground(new java.awt.Color(205, 133, 0));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setText("Kasa :");
