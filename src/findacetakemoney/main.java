@@ -43,7 +43,7 @@ public class main extends javax.swing.JFrame {
         
         cardListR = new int[4];
         
-        Image scaledImage = new ImageIcon("C:\\Users\\semih\\OneDrive\\Belgeler\\NetBeansProjects\\findAceTakeMoney\\Image\\arkaPlan.png").getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
+        Image scaledImage = new ImageIcon(getClass().getResource("/resources/Image/ArkaPlan.png")).getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
 
         for (int i = 0; i < btnList.size(); i++) {
             btnList.get(i).setIcon(new ImageIcon(scaledImage));
@@ -82,19 +82,19 @@ public class main extends javax.swing.JFrame {
     private Image isAce(int id) {
         switch (id) {
             case 0:
-                return new ImageIcon("C:\\Users\\semih\\OneDrive\\Belgeler\\NetBeansProjects\\findAceTakeMoney\\Image\\cardAce.png").getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
+                return new ImageIcon(getClass().getResource("/resources/Image/cardAce.png")).getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
             //break;
             case 1:
-                return new ImageIcon("C:\\Users\\semih\\OneDrive\\Belgeler\\NetBeansProjects\\findAceTakeMoney\\Image\\card9.png").getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
+                return new ImageIcon(getClass().getResource("/resources/Image/card9.png")).getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
             //break;
             case 2:
-                return new ImageIcon("C:\\Users\\semih\\OneDrive\\Belgeler\\NetBeansProjects\\findAceTakeMoney\\Image\\card8.png").getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
+                return new ImageIcon(getClass().getResource("/resources/Image/card8.png")).getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
             //break;
             case 3:
-                return new ImageIcon("C:\\Users\\semih\\OneDrive\\Belgeler\\NetBeansProjects\\findAceTakeMoney\\Image\\card3.png").getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
+                return new ImageIcon(getClass().getResource("/resources/Image/card3.png")).getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
             //break;
             default:
-                return new ImageIcon("C:\\Users\\semih\\OneDrive\\Belgeler\\NetBeansProjects\\findAceTakeMoney\\Image\\arkaPlan.png").getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
+                return new ImageIcon(getClass().getResource("/resources/Image/ArkaPlan.png")).getImage().getScaledInstance(150, 200, Image.SCALE_SMOOTH);
         }
     }
     
